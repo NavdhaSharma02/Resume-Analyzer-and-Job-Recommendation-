@@ -1,43 +1,73 @@
 # Resume-Analyzer-and-Job-Recommendation-
-Frontend
 
-React + Vite
+A full-stack AI-powered application that analyzes resumes against job descriptions and calculates a match percentage to help candidates understand their suitability for a role.
 
-Tailwind CSS
+This project demonstrates end-to-end full-stack development, integrating a modern React frontend with a FastAPI backend and NLP-based resume parsing.
 
-Backend
+---
 
-FastAPI
+## Features
 
-Python
+- Upload resume in PDF format
+- Paste job description text
+- Backend analyzes resume vs job description
+- Displays match percentage in real time
+- Fast, responsive UI
+- CORS-enabled secure API communication
 
-NLP
+---
 
-spaCy
+## Tech Stack
 
-TF-IDF (simple + effective)
+### Frontend
 
-Database
+- React
+- Vite
+- Tailwind CSS
+- Axios
 
-SQLite (easy now, scalable later)
+### Backend
 
+- FastAPI
+- Python
+- Uvicorn
+- PDF parsing & text processing utilities
 
+---
 
-scehma of the project
-resume-analyzer/
+##  Project Structure
+
+Resume-Analyzer-and-Job-Recommendation/
 │
 ├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── routes/
-│   │   │   └── resume.py
-│   │   ├── services/
-│   │   │   └── parser.py
-│   │   ├── models/
-│   │   │   └── schemas.py
-│   │   └── utils/
-│   │       └── scoring.py
-│   │
-│   └── requirements.txt
+│ ├── app/
+│ │ ├── routes/
+│ │ ├── services/
+│ │ ├── main.py
+│ │
+│ ├── venv/
+│ └── requirements.txt
 │
-└── frontend/
+├── frontend/
+│ ├── src/
+│ ├── public/
+│ ├── tailwind.config.js
+│ ├── postcss.config.js
+│ ├── vite.config.js
+│ └── package.json
+│
+└── README.md
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
